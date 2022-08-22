@@ -1,0 +1,26 @@
+
+
+============================== 2022-08-18 12:10:56.083933 | b8ebaf97-8957-460d-a9de-f4fbb53a6d4a ==============================
+12:10:56.083933 [info ] [MainThread]: Running with dbt=1.1.2
+12:10:56.084996 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\OliviervanderSluis\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'dbt_datawarehouse', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+12:10:56.084996 [debug] [MainThread]: Tracking: tracking
+12:10:56.111817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193DBEEB2E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193DBEEBC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193DBEEB460>]}
+12:10:56.113821 [debug] [MainThread]: Starter project path: C:\python\lib\site-packages\dbt\include\starter_project
+12:11:01.064982 [info ] [MainThread]: No sample profile found for sqlserver.
+12:11:01.065982 [info ] [MainThread]: 
+Your new dbt project "dbt_datawarehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+12:11:01.066986 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193DBEEB2E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193DBEEBBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000193DBEEBEE0>]}

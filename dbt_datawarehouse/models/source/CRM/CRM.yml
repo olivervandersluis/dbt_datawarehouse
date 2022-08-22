@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: CRM
+    database: AdventureWorks2019
+    schema: CRM
+    tables:
+      - name: Customer     

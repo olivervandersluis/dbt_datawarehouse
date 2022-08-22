@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: orders
+    description: "Preparing data"
+    columns:
+      - name: OrderDate
+        description: "de datum waarop de order is geplaatst"
+      - name: SalesOrderNumber 
+        description: "code waarmee de order kan worden gevonden in het verkoop system"
+      - name: CustomerID
+        description: "Identifier van de klant"
+      - name: ProductName
+        description: "naam van het product"
+      - name: Total
+        description: "bedrag betaald voor het aantal producten"
+      - name: Aantal
+        description: "aantal producten verkocht"
+      - name: ListPrice
+        description: "Inkoopprijs van het product"
+      - name: Discount
+        description: "hoeveelheid Korting verleent"

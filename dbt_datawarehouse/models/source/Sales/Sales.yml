@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: Sales
+    database: AdventureWorks2019 
+    schema: Sales
+    tables:
+      - name: SalesOrderDetail
+      - name: SalesOrderHeader
+      - name: Customer     
