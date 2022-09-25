@@ -20,4 +20,5 @@ models:
         description: "Inkoopprijs van het product"
       - name: Discount
         description: "{{ doc('order_status') }}"
+  - name: details
 
