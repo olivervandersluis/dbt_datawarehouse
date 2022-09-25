@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: CRM
-    database: AdventureWorks2019
+    database: Staging
     schema: CRM
     tables:
       - name: Customer     

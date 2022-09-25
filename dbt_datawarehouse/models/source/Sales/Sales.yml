@@ -2,9 +2,13 @@ version: 2
 
 sources:
   - name: Sales
-    database: AdventureWorks2019 
+    database: Staging 
     schema: Sales
+
+    meta:
+      owner: o.vandersluis@amevi.nl
+
     tables:
       - name: SalesOrderDetail
       - name: SalesOrderHeader
-      - name: Customer     
+      - name: Customer  

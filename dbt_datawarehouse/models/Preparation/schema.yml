@@ -19,4 +19,5 @@ models:
       - name: ListPrice
         description: "Inkoopprijs van het product"
       - name: Discount
-        description: "hoeveelheid Korting verleent"
+        description: "{{ doc('order_status') }}"
+

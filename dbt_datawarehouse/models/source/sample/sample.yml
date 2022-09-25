@@ -1,8 +1,0 @@
-version: 2
-
-models:
-  - name: sample
-    description: "test files"
-    schema: Sales
-    table:
-      - name: Sample
