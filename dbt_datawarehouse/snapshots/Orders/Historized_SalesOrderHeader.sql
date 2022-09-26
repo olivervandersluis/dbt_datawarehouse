@@ -2,7 +2,7 @@
 
 {{
     config(
-      target_database='AdventureWorks2019',
+      target_database='staging',
       target_schema='History',
       unique_key='SalesOrderID',
 

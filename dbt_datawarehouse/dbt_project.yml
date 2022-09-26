@@ -34,14 +34,13 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   dbt_datawarehouse:
     +as_columnstore: False
-    +database: Staging    
+    +database: staging    
     # Config indicated by + and applies to all files under models/example/
     source:
     Preperation:
-      +database: Staging    
       +materialized: view
       +schema: Preperation
-    source_data: 
+    source_data:        
       +schema: source
     Sales:
-
+       +schema: Sales     

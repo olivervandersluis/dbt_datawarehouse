@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: Sales
-    database: Staging 
+    database: staging 
     schema: Sales
 
     meta:

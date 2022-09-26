@@ -1,4 +1,3 @@
-
 SELECT 
 	cast(soh.OrderDate as date) OrderDate,
 	soh.SalesOrderNumber,
