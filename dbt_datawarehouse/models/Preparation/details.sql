@@ -1,1 +1,2 @@
-select * from {{ref("SalesOrderDetail")}} 
+{{config(alias="SOD")}}
+select * from {{source("Sales","SalesOrderDetail")}} 

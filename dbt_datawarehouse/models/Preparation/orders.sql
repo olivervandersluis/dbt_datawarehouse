@@ -1,3 +1,4 @@
+{{ config( alias="Order_alias", schema="Preps", materialized="table",  )}}
 SELECT 
 	cast(soh.OrderDate as date) OrderDate,
 	soh.SalesOrderNumber,
@@ -7,10 +8,10 @@ SELECT
 	sum(sod.OrderQty) Aantal,
 	sum(Product.ListPrice) ListPrice,
 	sum(sod.UnitPriceDiscount) Discount
-  FROM {{ref("SalesOrderHeader")}} soh
-  left join {{ref("SalesOrderDetail")}} sod
+  FROM {{source("Sales","SalesOrderHeader")}} soh
+  left join {{source("Sales","SalesOrderDetail")}} sod
   on soh.SalesOrderID = sod.SalesOrderID
-  left join {{ref("Customer")}}  c
+  left join {{source("Sales","Customer")}}  c
   on soh.CustomerID = c.CustomerID
   left join Production.Product
 on sod.ProductID = product.ProductID

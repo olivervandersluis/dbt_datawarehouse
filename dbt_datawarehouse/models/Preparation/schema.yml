@@ -21,4 +21,3 @@ models:
       - name: Discount
         description: "{{ doc('order_status') }}"
   - name: details
-
