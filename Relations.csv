@@ -1,4 +1,4 @@
-Referenced Object,Referencing Object
+ReferencedObject,ReferencingObject
 CRMOnline.dbo.centric_method,CRMOnline.dbo.MethodeIDCode
 CRMOnline.dbo.sysdiagrams,CRMOnline.dbo.sp_alterdiagram
 CRMOnline.dbo.sysdiagrams,CRMOnline.dbo.sp_creatediagram
